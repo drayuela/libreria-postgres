@@ -80,9 +80,9 @@ if 'DATABASE_HOST' in os.environ:
             'HOST': os.environ.get('DATABASE_HOST')
             # ENGINE read notes below
             'ENGINE': 'django.db.backends.postgresql_psycopg2',
-            'NAME': os.environ.get('DATABASE_NAME'),
-            'USER': os.environ.get('DATABASE_USER'),
-            'PASSWORD': os.environ.get('DATABASE_PASSWORD'),
+            'NAME': os.environ.get('Libreria'),
+            'USER': os.environ.get('dcalderon'),
+            'PASSWORD': os.environ.get('dcalderon'),
         }
     }
 else :
